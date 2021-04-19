@@ -1,0 +1,23 @@
+#barrita {
+    color: ivory;
+    display: flex;
+    justify-content: space-around;
+    font-size: 12pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+}
+#nos {
+color:rgb(238, 233, 164);
+font-weight: bold;
+}   
+#tacita  {
+height: 25px;    
+width: 20px;
+}
+#medio {
+    font-size: 13px;
+    font-variant: initial;
+    font-family: fantasy;
+    font-style: italic;
+    color: rgba(70, 43, 4, 0.808);
+}

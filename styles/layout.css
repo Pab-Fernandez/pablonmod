@@ -1,0 +1,51 @@
+html, body {
+    margin:0;
+    padding:0;
+}
+body {
+min-height: 100vh;
+display:flex;
+flex-direction: column;
+}
+header {
+padding-bottom: 0px;
+max-height: 50px;
+background-color: rgba(250, 250, 249, 0.911);
+font-family: "Monoton", cursive;
+font-size: 10pt;
+text-align: center;
+color:rgb(100, 76, 41);
+font-weight: bold;
+text-decoration: none;
+flex:1;
+}
+a
+{
+text-decoration: none !important;    
+}
+ footer {
+display: flex;
+flex-direction: column;
+align-content: space-around;
+height: 400px;
+background-color: rgba(214, 206, 194, 0.918);
+ text-align: center;
+font-size: 25pt;
+color:rgba(54, 35, 6, 0.993);
+font-family:"Monoton", cursive;
+}
+footer > div {
+min-height: 280px;
+background-image: url(../styles/Footercafe.jpg);
+background-color: rgb(35, 114, 97);
+color: rgb(240, 227, 171);
+}
+
+nav {
+    height: 45px;
+    background-color: rgb(235, 226, 233);
+}
+main { 
+flex: 1;
+}
+

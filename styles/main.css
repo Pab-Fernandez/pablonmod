@@ -1,0 +1,31 @@
+main {
+    display:flex;
+}
+#ad {
+    width: 280px;
+    padding: 5px;
+    vertical-align: text-bottom;
+    text-shadow: 3px rgb(6, 7, 6);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: lightsteelblue;
+    background-image: url(./viejita.gif);
+    font-size: 20pt;
+    color:  rgb(0, 255, 149);
+}
+.test {
+align-self: center;
+max-width: 600px;
+max-height: 500px;
+
+}
+    
+#medio {
+    flex: 1;
+    background-color: lemonchiffon;
+    padding: 20px;
+}
+#mug {
+width: 240px;
+order: -1; 
+background-color: rgb(221, 221, 221);
+}

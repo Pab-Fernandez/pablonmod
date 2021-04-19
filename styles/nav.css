@@ -1,0 +1,9 @@
+#barrita {
+    color: ivory;
+    display: flex;
+    justify-content: space-around;
+    font-size: 8pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}

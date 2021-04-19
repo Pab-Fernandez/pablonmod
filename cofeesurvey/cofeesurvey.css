@@ -1,0 +1,47 @@
+
+#barrita {
+    padding: 0px;
+    color: ivory;
+    display: flex;
+    justify-content: space-around;
+    font-size: 12pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+}
+#cofsur {
+color:rgb(238, 233, 164);
+font-weight: bold;
+}   
+#tacita {
+height: 25px;    
+width: 20px;
+}
+#form {
+background-color: antiquewhite;
+}
+form {
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    width: 50%;
+}
+input {
+width: ;
+}
+
+.dato {
+    color: rgba(180, 103, 14, 0.781);
+    font-size:12pt;
+    font-weight: bold;
+}
+.st {
+color:rgb(53, 38, 17);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+}
+#enviar {
+    margin-top: 10px;
+    padding-top: 10px;
+    color: darkcyan;
+    background-color: beige;    
+}

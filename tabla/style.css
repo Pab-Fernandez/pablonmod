@@ -1,0 +1,42 @@
+h1, h2, h3 {
+flex-grow: 0.6;
+color: blanchedalmond;
+align-self:center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-decoration: violet;
+text-decoration-line: underline;
+}
+.prole {
+color: rgb(44, 255, 174);
+text-shadow: 2px whitesmoke;
+font-style: italic;
+align-self:flex-end;
+text-decoration: none;
+}
+main {
+   display: flex;
+   flex-direction: column;
+   background-color: rgb(54, 58, 61);
+   justify-content: center;
+}
+table, tr ,td {
+flex-grow: 2;
+align-self: center;
+border-collapse: collapse;
+border: solid 3px rgb(37, 248, 255);
+border-radius: 25px;
+border-top-width: 4px;
+color: cornsilk;
+flex: 3;
+min-width: 240px;
+min-height: 150px;
+}
+th {
+background-color: rgba(57, 68, 88, 0.747);
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color:darkkhaki;
+}
+td {
+text-align: center;
+color:ivory;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/layout.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/nav.css">
+    <link rel="stylesheet" href="./cofeesurvey.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <title>Cofee Survey</title>
+</head>
+
+<body>
+    <header><a href="../Home/index.html" <h1>Café!</H1></a>
+    </header>
+    <nav id="barritanav">
+        <ul id=barrita>
+            <li><a href="../nosotres/index.html"> Sobre nosotres</a></li>
+            <li><a href="../Home/index.html"> Home </a></li>
+            <li id="cofsur"><a href="#">Cofee survey <img id=tacita src="../styles/tacitapn.png"></a></li>
+        </ul>
+    </nav>
+    <main id="cofeeflex">
+        <form>
+            <label class="dato" for="bday"> Fecha de nacimiento</label><br>
+            <input type="date" id="bday" name="Fecha de nacimiento"> <br>
+            <input type="submit" value="Enviar"><br>
+            <label class="dato" for="gender"> Género</label><br>
+            <label for="Hombre CIS"> Hombre CIS </label>
+            <input type="radio" id="Hombre CIS" name="gender" value="Hombre CIS"> <br>
+            <label for="Mujer CIS"> Mujer CIS </label>
+            <input type="radio" id="Mujer CIS" name="gender" value="Mujer CIS"><br>
+            <label for="Mujer Trans"> Mujer Trans</label>
+            <input type="radio" id="Mujer Trans" name="gender" value="Mujer Trans"> <br>
+            <label for="Hombre Trans"> Hombre Trans</label>
+            <input type="radio" id="Hombre Trans" name="gender" value="Hombre Trans"><br>
+            <label for="No binarie"> No binarie</label>
+            <input type="radio" id="No binarie" name="gender" value="No binarie"> <br>
+            <label for="gender">Otro:</label>
+            <input type="text" id="gender" name="otro"> <br>
+            <h2 class="st"> Sobre Cafecito:</h2>
+            <label class="dato" for> ¿Cómo consume su café?</label> <br>
+            <input type="checkbox" id=option1 name=option1 value="Casa">
+            <label for="option1"> En casa</label> <br>
+            <input type="checkbox" id="option2" name="option2" value="cafeteria">
+            <label for="option2"> En cafeterías y bares</label> <br>
+            <input type="checkbox" id="option3" name="option3" value="leave">
+            <label for="option3"> <a href="https://youtu.be/cEuU64Zt4B0?t=10"> No tomo café</a></label> <br>
+            <label class="dato" for="cantidad"> ¿Cuántas tazas toma diariamente? </label>
+            <input type="number" id="cantidad" name="candle" value="min=0" max="10"> <br>
+            <input id="enviar" type="submit" value=" Enviar respuestas" <br>
+
+            <h2 class=st>¡Gracias por participar!</h2>
+        </form>
+
+        <aside id="mug">
+            <p> Sexy Sadie</p>
+        </aside>
+    </main>
+    <footer> Not my cup of tea
+
+    </footer>
+</body>
+
+</html>
